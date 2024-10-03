@@ -17,6 +17,10 @@ body {
     text-align: center;
 }
 
+#motivationMessage {
+    font-size: large;
+}
+
 .counter {
     font-size: 2em;
     margin-bottom: 20px;
