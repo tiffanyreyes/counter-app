@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Task Counter</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="task-counter">
+        <h1>Task Counter</h1>
+        <div class="counter">
+            <h2 id="taskCount">0</h2>
+            <p>Tasks Completed</p>
+            <p id="motivationMessage" style="display: none;">You got this! 🎉</p> <!-- Motivation message -->
+        </div>
+        <button id="completeTaskButton">Add</button>
+        <button id="resetTaskButton">Reset</button>
+
+       <!-- GIF Container -->
+       <div class="gif-container" id="gifContainer" style="display: none;">
+        <iframe id="progressGif" src="" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <p><a id="gifLink" href="#" style="display: none;">via GIPHY</a></p>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
